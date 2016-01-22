@@ -7,7 +7,20 @@ nav {
   float: left;
   margin-top: 12px;
   margin-right: 18px;
+}
 
+section {
+  width: 550px;
+  float: left;
+}
+
+nav a {
+  text-decoration: none
+}
+
+section a {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav ul {
@@ -16,7 +29,7 @@ nav ul {
   padding: 0px;
 }
 
-nav li {
+nav ul li {
   border-bottom: 1px solid #ffffff;
 }
 
@@ -38,16 +51,43 @@ nav li a:hover, nav li a:active {
   color: #ffffff;
 }
 
-nav a {
-  text-decoration: none
+nav ul ul {
+  margin: 0px;
+  padding: 0px;
 }
 
-section {
-  width: 550px;
-  float: left;
+nav ul ul li {
+  border-bottom: none;
 }
 
-section a {
-  text-decoration: none;
+nav ul ul li a:link, nav ul ul li a:visited {
+  font-size: 8pt;
   font-weight: bold;
+  display: block;
+  padding: 3px 0px 3px 18px;
+  background-color: #638794;
+  color: #ffffff;
 }
+
+nav ul ul li a:hover, nav ul ul li a:active {
+  font-size: 8pt;
+  font-weight: bold;
+  display: block;
+  padding: 3px 0px 3px 18px;
+  background-color: #c6a648;
+  color: #000000;
+}
+
+
+
+
+
+/*nav li {
+  border-bottom: 1px solid #ffffff;
+}*/
+
+
+
+
+
+
